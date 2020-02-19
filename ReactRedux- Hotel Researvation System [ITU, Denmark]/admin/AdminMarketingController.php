@@ -24,12 +24,41 @@
 *  International Registered Trademark & Property of PrestaShop SA
 */
 
-header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
-header('Last-Modified: '.gmdate('D, d M Y H:i:s').' GMT');
+class AdminMarketingControllerCore extends AdminController
+{
+    public function __construct()
+    {
+        $this->bootstrap = true;
+        parent::__construct();
+    }
 
-header('Cache-Control: no-store, no-cache, must-revalidate');
-header('Cache-Control: post-check=0, pre-check=0', false);
-header('Pragma: no-cache');
+    public function initContent()
+    {
+        $this->display = 'view';
+        return parent::initContent();
+    }
+    
+    public function initToolbarTitle()
+    {
+        $this->toolbar_title = array_unique($this->breadcrumbs);
+    }
 
-header('Location: ../../');
-exit;
+    public function initPageHeaderToolbar()
+    {
+        parent::initPageHeaderToolbar();
+        $this->page_header_toolbar_btn = array();
+    }
+    
+    public function initToolbar()
+    {
+        return false;
+    }
+    
+    public function renderView()
+    {
+        $this->tpl_view_vars = array(
+            'modules_list' => $this->renderModulesList(),
+        );
+        return parent::renderView();
+    }
+}

@@ -24,12 +24,29 @@
 *  International Registered Trademark & Property of PrestaShop SA
 */
 
-header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
-header('Last-Modified: '.gmdate('D, d M Y H:i:s').' GMT');
+class AdminNotFoundControllerCore extends AdminController
+{
+    public function __construct()
+    {
+        $this->bootstrap = true;
+        parent::__construct();
+    }
 
-header('Cache-Control: no-store, no-cache, must-revalidate');
-header('Cache-Control: post-check=0, pre-check=0', false);
-header('Pragma: no-cache');
+    public function checkAccess()
+    {
+        return true;
+    }
 
-header('Location: ../../');
-exit;
+    public function viewAccess($disable = false)
+    {
+        return true;
+    }
+
+    public function initContent()
+    {
+        $this->errors[] = Tools::displayError('Controller not found');
+        $tpl_vars['controller'] = Tools::getvalue('controllerUri', Tools::getvalue('controller'));
+        $this->context->smarty->assign($tpl_vars);
+        parent::initContent();
+    }
+}

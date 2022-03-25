@@ -11,7 +11,7 @@ Adress ID;Alias*;Active (0/1);Customer e-mail*;Customer ID;Manufacturer;Supplier
 10;Smee / Portland;1;Bob.Smee@prestashop.com;;;;Lattice Semiconductor;Smee;Bob;5555 NE Moore Ct;;97124;Hillsboro;United States;Oregon;;01 02 03 04 05;06 02 03 04 05;;;
 11;Tictac Crocodile / Home;1;Tictac.Crocodile@prestashop.com;;;;;Crocodile;Tictac;Old State Rd 4A;Saddlebunch keys;33040;Bay Point;United States;Florida;Beware the Shark :);01 02 03 04 05;06 02 03 04 05;;;
 12;Apple / address1;1;;;Apple;;;Doe;John;1–6 Infinite Loop;;95014;Cupertino;United States;California;;01 02 03 04 05;06 02 03 04 05;;;
-13;Shure / address1;1;;;Shure;;;Non-Doe;John;5800W Touhy Avenue;;60714;Niles;United States;Illinois;;01 02 03 04 05;06 02 03 04 05;;;
+13;Shure / address1;1;;;Shure;;;Non-Doe;John;5800W Touhy Avenue;;60714;Niles;United States;Illinois;;01 02 03 04 05;06 02 03 04 05;;; 
 14;Shure / address2;1;;;Shure;;;Schuss-mayer;Kurt;Jakob-Dieffenbacher-Str. 12;;75031;Eppingen;Germany;;;01 02 03 04 05;06 02 03 04 05;;;
 15;UPS / address1;1;;;;U.P.S;;Austin;Steve;55NE Glenlake Parkway;;30328;Atlanta;United States;Georgia;;01 02 03 04 05;06 02 03 04 05;;; 
 16;FedEX / address1;1;;;;FedEX;;Noland;Chuck;3640 Hacks Cross Rd;;32125;Memphis;United States;Tennessee;;01 02 03 04 05;06 02 03 04 05;;;

@@ -46,6 +46,6 @@ class Adapter_AddressFactory
      */
     public function addressExists($id_address)
     {
-        return Address::addressExists($id_address);
+        return Address::addressExists($id_address); 
     }
 }

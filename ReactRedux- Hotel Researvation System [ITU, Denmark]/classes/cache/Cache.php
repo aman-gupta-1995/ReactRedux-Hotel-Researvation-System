@@ -1,4 +1,4 @@
-<?php
+ <?php
 /*
 * 2007-2017 PrestaShop
 *   
@@ -32,7 +32,7 @@ abstract class CacheCore
     const KEYS_NAME = '__keys__';
 
     /**
-     * Name of SQL cache index
+     * Name of SQL cache index 
      */
     const SQL_TABLES_NAME = 'tablesCached';
 

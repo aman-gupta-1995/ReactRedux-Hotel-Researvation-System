@@ -19,7 +19,7 @@
                                             <strong>{l s='Room'} - {$roomCount}</strong>
                                         </font>
                                     </td>
-                                {/if}
+                                {/if} 
                                 <td class="text-center">
                                     <font size="2" face="Open-sans, sans-serif" color="#555454">
                                         {$demand['name']}

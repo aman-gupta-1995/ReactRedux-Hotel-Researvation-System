@@ -25,7 +25,7 @@
  */
 
 class Adapter_AddressFactory
-{
+{ 
     /**
      * Initilize an address corresponding to the specified id address or if empty to the
      * default shop configuration

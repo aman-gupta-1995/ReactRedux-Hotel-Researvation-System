@@ -26,7 +26,7 @@
 
 class Adapter_Database implements Core_Foundation_Database_DatabaseInterface
 {
-    /**
+    /** 
      * Perform a SELECT sql statement
      * @param $sqlString
      * @return array|false

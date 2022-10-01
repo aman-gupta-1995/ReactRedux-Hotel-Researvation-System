@@ -33,6 +33,6 @@ class Adapter_CacheManager
      */ 
     public function clean($key)
     {
-        Cache::clean($key);
+        Cache::clean($key); 
     }
 }

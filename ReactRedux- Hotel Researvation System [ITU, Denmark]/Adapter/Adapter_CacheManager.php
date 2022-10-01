@@ -30,7 +30,7 @@ class Adapter_CacheManager
      * Cleans the cache for specific cache key.
      *
      * @param $key
-     */
+     */ 
     public function clean($key)
     {
         Cache::clean($key);

@@ -1,5 +1,5 @@
 /*  
- * Date prototype extensions. Doesn't depend on any      
+ * Date prototype extensions. Doesn't depend on any       
  * other code. Doens't overwrite existing methods.      
  *      
  * Adds dayNames, abbrDayNames, monthNames and abbrMonthNames static properties and isLeapYear,        

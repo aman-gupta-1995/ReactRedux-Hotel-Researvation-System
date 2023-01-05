@@ -27,7 +27,7 @@
  * @type Array
  * @cat Plugins/Methods/Date
  */ 
-Date.dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']; 
+Date.dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];  
 
 /**
  * An Array of abbreviated day names starting with Sun.

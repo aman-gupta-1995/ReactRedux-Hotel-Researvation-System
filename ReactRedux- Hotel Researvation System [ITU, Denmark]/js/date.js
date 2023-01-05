@@ -4,7 +4,7 @@
  *     
  * Adds dayNames, abbrDayNames, monthNames and abbrMonthNames static properties and isLeapYear,        
  * isWeekend, isWeekDay, getDaysInMonth, getDayName, getMonthName, getDayOfYear, getWeekOfYear,   
- * setDayOfYear, addYears, addMonths, addDays, addHours, addMinutes, addSeconds methods 
+ * setDayOfYear, addYears, addMonths, addDays, addHours, addMinutes, addSeconds methods  
  * 
  * Copyright (c) 2006 Jörn Zaefferer and Brandon Aaron (brandon.aaron@gmail.com || http://brandonaaron.net)
  *

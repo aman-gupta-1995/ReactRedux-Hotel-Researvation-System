@@ -30,7 +30,7 @@
 Date.dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];  
 
 /**
- * An Array of abbreviated day names starting with Sun.
+ * An Array of abbreviated day names starting with Sun. 
  * 
  * @example abbrDayNames[0]
  * @result 'Sun'
